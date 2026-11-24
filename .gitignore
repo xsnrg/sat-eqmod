@@ -1,0 +1,22 @@
+# build tree
+build/
+build-*/
+cmake-build-*/
+compile_commands.json
+
+# vendored third-party reference checkouts (indi-eqmod etc.)
+ref/
+eqmod-src/
+
+# editor / OS cruft
+*.swp
+*~
+.DS_Store
+
+# local session state / logs (daemon default lives in ~/.local/state/sateq)
+*.state
+*.log
+
+# local development config / private bench notes — never public
+opencode.json
+*.local.md
